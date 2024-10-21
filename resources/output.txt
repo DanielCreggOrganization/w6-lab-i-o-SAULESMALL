@@ -1,1 +1,1 @@
-HELLO, JAVA I/O! THIS IS A TEST FILE.
+Hello, JAVA I/O! THIS is A test FILE. 
