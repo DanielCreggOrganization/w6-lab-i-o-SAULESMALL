@@ -1,0 +1,8 @@
+graph LR
+    A[Java Application] --> B[java.io]
+    A --> C[java.nio.file]
+    B --> D[File handling]
+    C --> D
+    D --> E[Create files]
+    D --> F[Locate files]
+    D --> G[Manipulate files]

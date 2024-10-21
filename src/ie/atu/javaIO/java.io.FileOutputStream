@@ -1,0 +1,6 @@
+graph TD
+    A[OutputStream] --> B[FileOutputStream]
+    A --> C[ByteArrayOutputStream]
+    A --> D[Other specialized streams...]
+    B --> E[Write to files]
+    C --> F[Write to memory]

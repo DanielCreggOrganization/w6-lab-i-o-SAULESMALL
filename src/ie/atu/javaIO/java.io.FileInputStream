@@ -1,0 +1,5 @@
+graph TD
+    A[InputStream] --> B[FileInputStream]
+    A --> C[ByteArrayInputStream]
+    B --> E[Read from files]
+    C --> F[Read from memory]
